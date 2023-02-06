@@ -1,0 +1,25 @@
+p{
+    font-family: Montserrat;
+}
+
+
+.Heading{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.desc{
+    text-align: center;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 12px;
+
+}
+.Redirect{
+
+}
+.Redirect:hover{
+    cursor: pointer;
+}
