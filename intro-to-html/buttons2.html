@@ -1,0 +1,83 @@
+<style>
+    .subscribe-button{
+        background-color: rgb(200, 0, 0);
+        color: white;
+        border: none;
+        height: 40px;
+        width: 105px;
+        border-radius: 40px;
+        cursor: pointer;
+        margin-right: 5px;
+        transition: opacity 0.15s ;
+    }
+
+    .subscribe-button:hover{
+        opacity: 0.68;
+        
+    }
+
+    .subscribe-button:active{
+        opacity: 0.6;
+
+    }
+
+    .join-button{
+        background-color: white;
+        color: rgb(9, 164, 241);
+        border-color: rgb(14, 128, 243);
+        border-style: solid;
+        border-width: 2px;
+        height: 35px;
+        width: 60px;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-right: 10px;
+        transition: background-color 0.15s,
+            color 0.15s;
+             
+             /* if we add the transition to hover pseudoclass everything will be fine . we get transition when we hover but as soon as we remove the cursor the style changes immediately with no hover.Because hover class is valid only when hover.*/
+
+    }
+
+    .join-button:hover{
+        background-color: rgb(9, 164, 241);
+        color: white; 
+    }
+
+    .join-button:active{
+        opacity: 0.7;
+    }
+
+    .tweet-button{
+        background-color: rgb(20, 146, 230);
+        color: white;
+        border: none;
+        height: 40px;
+        width: 80px;
+        border-radius: 70px;
+        font-size: 15px;
+        font-weight: bold;
+        cursor: pointer;
+        transition: box-shadow 0.15s;
+       
+    }
+    .tweet-button:hover{
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15); 
+        /*box-shadow: (horizontal pos) (vertical pos) (blur) (colour of shadow) 
+        a in rgba is alpha meaning blur opacity.
+        */
+
+    }
+
+</style>
+
+
+<button class="subscribe-button">
+    SUBSCRIBE
+</button>
+<button class="join-button">
+    JOIN 
+</button>
+<button class="tweet-button">
+    Tweet
+</button>

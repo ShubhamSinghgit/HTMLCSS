@@ -1,0 +1,84 @@
+<style>
+
+    p{
+        font-family: Arial; /*we can target all paragraphs to have same font style so we can delete all font family from the individual paragraphs.*/
+        margin-top: 0;
+        margin-bottom: 0; /*This is all done to write clean code*/
+    }
+    .vidtitle{
+        
+        font-weight: bold;
+        font-size: 18px;
+        width: 280px; /*To wrap the text to as second line like a box.*/
+        line-height: 23px; /*To add space between the two lines vertical*/
+        margin-bottom: 10px;
+    }
+    .vidstats{
+        
+        font-size: 14px;
+        color: #606060; /*copied from ref image using inspect.*/
+        /*margin-top: 0;*/
+        margin-bottom: 20px;
+    }
+    .ch-name{
+        
+        font-size: 14px;
+        color: #606060;
+        /*margin-top: 10px;*/
+        /*margin-top: 0;*/  /*To add space between author and about section*/
+        margin-bottom: 20px;
+    }
+    .About{
+        
+        font-size: 14px;
+        color: #606060;
+        margin-bottom: 0;
+        width: 280px;
+        line-height: 20px;
+        /*margin-top: 0;*/
+        margin-bottom: 150px;
+    }
+
+    .apple-text{
+        font-size: 14px;
+        background-color: rgb(227, 65, 64);
+        color: white;
+        text-align: center;
+        padding-top: 18px;
+        padding-bottom: 18px;
+        /*text-decoration: underline;*/ /*this property underlines the whole text line. So to just underline "SHOP NOW" section we need to learn text element.(elemt. inside a line of text)*/
+    }
+
+    .Shop{
+        color: #a29e9e;
+        font-style: italic;
+        margin-left: 5px;
+    }
+    .Shop:hover{
+        text-decoration: underline;
+        cursor: pointer;
+    }
+</style>
+
+
+<p class="vidtitle">  <!-- paragraphs by default comes with margin at top and bottom.-->
+    Talking tech with Shruti.
+</p>
+<p class="vidstats">
+    35.6k views &#183; 1 month ago <!-- HTML Entity used for special characters-->
+</p>
+<p class="ch-name">
+    Shruti tech &#10003;
+</p>
+<p class="About">
+    This video is about the coding journey from a beginner to a frontend developer intern.
+</p>
+
+<p class="apple-text">
+    Shop early for best selection of holiday favourites.<span class="Shop">Shop Now</span> &#62;
+</p>
+
+<p>
+    This is an example:
+    Shop early for <strong>best selection</strong> of <u> holiday</u> favourites. Shop Now. &#62;
+</p>
