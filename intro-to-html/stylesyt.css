@@ -5,6 +5,11 @@ p{
     margin-top: 0;
     margin-bottom: 0; 
 }
+
+.thumbnail{
+    width: 300px;
+    display: block;
+}
 .vidtitle{
     
     font-weight: bold;
@@ -35,10 +40,13 @@ p{
     
     font-size: 14px;
     color: #606060;
-    margin-bottom: 0;
+    margin-bottom: 15px;
     width: 280px;
     line-height: 20px;
     /*margin-top: 0;*/
+}
+.div-ex{
+    display: inline-block;
 }
 
 

@@ -1,0 +1,11 @@
+What is a div element?
+div stands for division . easy way to understand it is its just a box.
+div is a block element so it takes up the entire line.
+why div is useful??
+--> It can contain any other element inside a div like para , images and also divs inside divs.
+divs are meant to be containers 
+we use containers everywhere
+How block element in div works??
+--> generally they take up entire line but here they take the entire line in the containers(div)
+
+note: div by default is a block element so it takesthe entire line beside the container (preview) so to add something beside the div we first change the div to inline block.
